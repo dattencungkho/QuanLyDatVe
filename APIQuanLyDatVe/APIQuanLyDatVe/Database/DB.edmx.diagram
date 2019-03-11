@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ea2e2164625d45d0a35e217ce778eef9" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyDatVeModel.ChiTietLoTrinh" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.ChiTietVe" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.ChucVu" Width="1.5" PointX="0.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.ChuyenXe" Width="1.5" PointX="8" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.DiemDon" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.DiemTrungChuyen" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.DiemXuong" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.DoiTuong" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.KhachHang" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.Kip" Width="1.5" PointX="5.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.Lich" Width="1.5" PointX="11" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.LoTrinh" Width="1.5" PointX="5.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.NhanVien" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.Role" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.sysdiagram" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.TrangThaiVeXe" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.Ve" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyDatVeModel.Xe" Width="1.5" PointX="5.75" PointY="15.375" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_Ve_ChiTietLoTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_ChiTietVe_Ve" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_NhanVien_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_ChuyenXe_Kip" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_ChuyenXe_LoTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_ChuyenXe_Xe" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_DiemDon_DiemTrungChuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_Ve_DiemDon" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_DiemXuong_DiemTrungChuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_Ve_DiemXuong" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_KhachHang_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_Ve_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_Lich_Kip" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_Lich_LoTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_Ve_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyDatVeModel.FK_Ve_TrangThaiVeXe" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
