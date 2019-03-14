@@ -192,6 +192,7 @@
     <Compile Include="Controllers\QuanLyNhaXeController.cs" />
     <Compile Include="Controllers\QuanLyTaiKhoanController.cs" />
     <Compile Include="Controllers\QuanLyXeController.cs" />
+    <Compile Include="Controllers\SettingPasswordController.cs" />
     <Compile Include="Controllers\TongQuanController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -1472,6 +1473,7 @@
     <Content Include="Views\QuanLyDatXe\QuyTrinhDatXe\Buoc2.cshtml" />
     <Content Include="Views\QuanLyDatXe\QuyTrinhDatXe\Buoc3.cshtml" />
     <Content Include="Views\Login\DangNhap.cshtml" />
+    <Content Include="Views\SettingPassword\CaiDat.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
