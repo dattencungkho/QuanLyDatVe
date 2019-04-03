@@ -481,5 +481,38 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="T:APIQuanLyDatVe.Controllers.KhachHangController">
+            <summary>
+            API for KhachHang 
+            </summary>
+        </member>
+        <member name="M:APIQuanLyDatVe.Controllers.KhachHangController.Login(System.String,System.String)">
+            <summary>
+               check login custommer
+            </summary>
+            <param name="username">email hoac so dien thoai cua khach hang</param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIQuanLyDatVe.Controllers.KhachHangController.FindCustomerByUserName(System.String)">
+            <summary>
+            get customer information by username :usrname is phonenumber or email
+            </summary>
+            <returns>customer information</returns>
+        </member>
+        <member name="M:APIQuanLyDatVe.DAL.DataProvider.open">
+            <summary>
+            Mở kết nối
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:APIQuanLyDatVe.DAL.DataProvider.GetData(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            Lấy dữ liệu từ database đổ về datatable
+            </summary>
+            <param name="querry"></param>
+            <param name="pa"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
